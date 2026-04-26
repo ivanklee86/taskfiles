@@ -1,0 +1,14 @@
+version: '3'
+
+tasks:
+  build:write:
+    desc: "Templates devcontainer.json from gantry.yaml in your /.devcontainer folder."
+    dir: ".devcontainer"
+    cmds:
+      - gantry build --config gantry.yaml
+
+  build:write:
+    desc: "Templates devcontainer.json from gantry.yaml in your /.devcontainer folder."
+    dir: ".devcontainer"
+    cmds:
+      - gantry build --config gantry.yaml --write
