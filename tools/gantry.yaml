@@ -1,7 +1,7 @@
 version: '3'
 
 tasks:
-  build:write:
+  build:view:
     desc: "Templates devcontainer.json from gantry.yaml in your /.devcontainer folder."
     dir: ".devcontainer"
     cmds:
